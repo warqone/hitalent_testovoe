@@ -1,0 +1,16 @@
+TAGS_METADATA = [
+    {
+        'name': 'Чаты',
+        'description': 'Управление чатами',
+    },
+]
+
+MIN_LENGTH = 1
+MAX_TITLE_LENGTH = 200
+MAX_MESSAGE_LENGTH = 5000
+
+MAX_BYTES_TEMP_LOGER = 1_000_000
+BACKUP_COUNT_TEMP_LOGER = 3
+LOG_FILE_APP_LOGGER = 'app.log'
+DEFAULT_USER_ID = 0
+SYSTEM_USERNAME = 'SYSTEM'
